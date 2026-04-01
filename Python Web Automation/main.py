@@ -25,7 +25,7 @@ def search_instagram():
 # Initializing the main window
 root = tk.Tk()
 root.title("Your AI Assistant")
-root.configure(bg="steel blue")  # Setting background color [00:04:10]
+root.configure(bg="steel blue")  # Setting background color 
 
 # Creating Input Label
 label = Label(root, text="Enter Your Command", bg="steel blue", fg="white", font=("Arial", 12, "bold"))
@@ -36,17 +36,17 @@ entry = Entry(root, width=50)
 entry.pack(pady=10)
 
 # Creating Buttons with associated functions
-# YouTube Button [00:11:58]
+# YouTube Button 
 btn_youtube = Button(root, text="Search on YouTube", command=search_youtube)
 btn_youtube.pack(pady=5)
 
-# Google Button [00:07:36]
+# Google Button 
 btn_google = Button(root, text="Search on Google", command=search_google)
 btn_google.pack(pady=5)
 
-# Instagram Button [00:08:48]
+# Instagram Button 
 btn_instagram = Button(root, text="View Instagram Profile", command=search_instagram)
 btn_instagram.pack(pady=5)
 
-# Running the application [00:13:33]
+# Running the application 
 root.mainloop()
