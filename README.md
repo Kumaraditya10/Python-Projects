@@ -1,0 +1,1 @@
+Welcome to my collection of Beginner Python Projects. This repository contains a variety of functional scripts designed to practice core Python concepts including dictionaries, file handling, external libraries, and CLI logic.
